@@ -3,7 +3,7 @@
   position: relative;
   min-height: 70vh;
 
-  h3{
+  h2{
     margin: 20px 0;
   }
   .category-all-title { text-align: center; }
@@ -16,17 +16,33 @@
     list-style: none;
   }
 
-  .category-list-item { margin: 10px 10px; }
+  .category-list-item-list-item{
+    margin: 10px 15px;
+  }
 
-  .category-list-count {
-    color: #fff;
+  .category-list-item-list-count{
+    color: #000;
     &:before {
       display: inline;
-      content: " ("
+      content: " (";
     }
     &:after {
       display: inline;
-      content: ") "
+      content: ") ";
+    }
+  }
+
+  .category-list-item { margin: 10px 10px; }
+
+  .category-list-count {
+    color: #000;
+    &:before {
+      display: inline;
+      content: " (";
+    }
+    &:after {
+      display: inline;
+      content: ") ";
     }
   }
 

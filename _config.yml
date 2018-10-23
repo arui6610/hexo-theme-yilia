@@ -2,9 +2,9 @@
 
 menu:
   首页: /
-  分类: /categories
   归档: /archives
-  标签: /tags
+  分类: /categories
+  标签: /tagcloud
   相册: /galery
   
 
@@ -59,8 +59,8 @@ share_addthis: false
 #  friends: false
 
 smart_menu:
-  innerArchive: 'Articles'
-  tagcloud: 'Tags'
+  # innerArchive: 'Articles'
+  # tagcloud: 'Tags'
   # friends: false
   aboutme: 'About Me'
 
